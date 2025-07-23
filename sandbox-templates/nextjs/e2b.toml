@@ -1,0 +1,17 @@
+# This is a config for E2B sandbox template.
+# You can use template ID (6aj86xbhjmri7i4uupe8) or template name (webzzr-nextjs-2) to create a sandbox:
+
+# Python SDK
+# from e2b import Sandbox, AsyncSandbox
+# sandbox = Sandbox("webzzr-nextjs-2") # Sync sandbox
+# sandbox = await AsyncSandbox.create("webzzr-nextjs-2") # Async sandbox
+
+# JS SDK
+# import { Sandbox } from 'e2b'
+# const sandbox = await Sandbox.create('webzzr-nextjs-2')
+
+team_id = "f795925d-6865-47bd-bdab-a2678a6e7f1e"
+start_cmd = "/compile_page.sh"
+dockerfile = "e2b.Dockerfile"
+template_name = "webzzr-nextjs-2"
+template_id = "6aj86xbhjmri7i4uupe8"
